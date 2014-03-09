@@ -54,7 +54,8 @@ int args_init(args_t *args)
      args->dest = ARGS_DEFAULT_DEST;
 
      conf_file_dir = getenv("IPKG_CONF_DIR");
-     if (conf_file_dir == NULL || conf_file_dir[0] == '\0') {
+     if (conf_file_dir == NULL || conf_file_dir[0] == '\0')
+     {
 	  conf_file_dir = ARGS_DEFAULT_CONF_FILE_DIR;
      }
      sprintf_alloc(&args->conf_file, "%s/%s", conf_file_dir,
@@ -225,7 +226,8 @@ int args_parse(args_t *args, int argc, char *argv[])
 
 void args_usage(char *complaint)
 {
-     if (complaint) {
+     if (complaint)
+     {
 	  fprintf(stderr, "ipkg: %s\n", complaint);
      }
      print_version();
