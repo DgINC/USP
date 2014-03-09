@@ -2,7 +2,7 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define to 1 if your system has a working `chown' function. */
-/* #undef HAVE_CHOWN */
+#define HAVE_CHOWN 1
 
 /* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
    */
@@ -122,7 +122,7 @@
 #define HAVE_UTIME_H 1
 
 /* Define to 1 if `utime(file, NULL)' sets file's timestamp to the present. */
-/* #undef HAVE_UTIME_NULL */
+#define HAVE_UTIME_NULL 1
 
 /* Define to 1 if you have the `vfork' function. */
 #define HAVE_VFORK 1

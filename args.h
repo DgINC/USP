@@ -18,7 +18,7 @@
 #ifndef ARGS_H
 #define ARGS_H
 
-struct args
+typedef struct args
 {
     char *conf_file;
     char *dest;
@@ -42,8 +42,8 @@ struct args
     char *offline_root;
     char *offline_root_pre_script_cmd;
     char *offline_root_post_script_cmd;
-};
-typedef struct args args_t;
+}args_t;
+//typedef struct args args_t;
 
 #define ARGS_DEFAULT_CONF_FILE_DIR "/etc"
 #define ARGS_DEFAULT_CONF_FILE_NAME "ipkg.conf"

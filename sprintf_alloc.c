@@ -26,11 +26,13 @@ int sprintf_alloc(char **str, const char *fmt, ...)
     char *new_str;
     int n, size = 100;
 
-    if (!str) {
+    if (!str)
+    {
       fprintf(stderr, "Null string pointer passed to sprintf_alloc\n");
       return -1;
     }
-    if (!fmt) {
+    if (!fmt)
+    {
       fprintf(stderr, "Null fmt string passed to sprintf_alloc\n");
       return -1;
     }
@@ -48,7 +50,8 @@ int sprintf_alloc(char **str, const char *fmt, ...)
       return -1;
 
     *str = new_str;
-    while(1) {
+    while(1)
+    {
       va_start(ap, fmt);
       n = vsnprintf (new_str, size, fmt, ap);
       va_end(ap);
@@ -61,7 +64,8 @@ int sprintf_alloc(char **str, const char *fmt, ...)
 	else           /* glibc 2.0 */
 	    size *= 2;  /* twice the old size */
 	new_str = realloc(new_str, size);
-	if (new_str == NULL) {
+	if (new_str == NULL)
+        {
 	    free(new_str);
 	    *str = NULL;
 	    return -1;

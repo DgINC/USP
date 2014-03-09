@@ -1,0 +1,663 @@
+cd . && /bin/sh /home/dg/OS/RESOURCE/USP/missing --run autoheader
+/home/dg/OS/RESOURCE/USP/missing: line 46: autoheader: команда не найдена
+WARNING: `autoheader' is missing on your system.  You should only need it if
+         you modified `acconfig.h' or `configure.ac'.  You might want
+         to install the `Autoconf' and `GNU m4' packages.  Grab them
+         from any GNU archive site.
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+/usr/bin/make  all-recursive
+make[1]: Вход в каталог `/home/dg/OS/RESOURCE/USP'
+Making all in etc
+make[2]: Вход в каталог `/home/dg/OS/RESOURCE/USP/etc'
+make[2]: Цель `all' не требует выполнения команд.
+make[2]: Выход из каталога `/home/dg/OS/RESOURCE/USP/etc'
+Making all in familiar
+make[2]: Вход в каталог `/home/dg/OS/RESOURCE/USP/familiar'
+make[2]: Цель `all' не требует выполнения команд.
+make[2]: Выход из каталога `/home/dg/OS/RESOURCE/USP/familiar'
+Making all in libbb
+make[2]: Вход в каталог `/home/dg/OS/RESOURCE/USP/libbb'
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-gz_open.lo -MD -MP -MF ".deps/libbb_la-gz_open.Tpo" -c -o libbb_la-gz_open.lo `test -f 'gz_open.c' || echo './'`gz_open.c; \
+then mv -f ".deps/libbb_la-gz_open.Tpo" ".deps/libbb_la-gz_open.Plo"; else rm -f ".deps/libbb_la-gz_open.Tpo"; exit 1; fi
+mkdir .libs
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-gz_open.lo -MD -MP -MF .deps/libbb_la-gz_open.Tpo -c gz_open.c  -fPIC -DPIC -o .libs/libbb_la-gz_open.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-gz_open.lo -MD -MP -MF .deps/libbb_la-gz_open.Tpo -c gz_open.c -o libbb_la-gz_open.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-unzip.lo -MD -MP -MF ".deps/libbb_la-unzip.Tpo" -c -o libbb_la-unzip.lo `test -f 'unzip.c' || echo './'`unzip.c; \
+then mv -f ".deps/libbb_la-unzip.Tpo" ".deps/libbb_la-unzip.Plo"; else rm -f ".deps/libbb_la-unzip.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-unzip.lo -MD -MP -MF .deps/libbb_la-unzip.Tpo -c unzip.c  -fPIC -DPIC -o .libs/libbb_la-unzip.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-unzip.lo -MD -MP -MF .deps/libbb_la-unzip.Tpo -c unzip.c -o libbb_la-unzip.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-wfopen.lo -MD -MP -MF ".deps/libbb_la-wfopen.Tpo" -c -o libbb_la-wfopen.lo `test -f 'wfopen.c' || echo './'`wfopen.c; \
+then mv -f ".deps/libbb_la-wfopen.Tpo" ".deps/libbb_la-wfopen.Plo"; else rm -f ".deps/libbb_la-wfopen.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-wfopen.lo -MD -MP -MF .deps/libbb_la-wfopen.Tpo -c wfopen.c  -fPIC -DPIC -o .libs/libbb_la-wfopen.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-wfopen.lo -MD -MP -MF .deps/libbb_la-wfopen.Tpo -c wfopen.c -o libbb_la-wfopen.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-unarchive.lo -MD -MP -MF ".deps/libbb_la-unarchive.Tpo" -c -o libbb_la-unarchive.lo `test -f 'unarchive.c' || echo './'`unarchive.c; \
+then mv -f ".deps/libbb_la-unarchive.Tpo" ".deps/libbb_la-unarchive.Plo"; else rm -f ".deps/libbb_la-unarchive.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-unarchive.lo -MD -MP -MF .deps/libbb_la-unarchive.Tpo -c unarchive.c  -fPIC -DPIC -o .libs/libbb_la-unarchive.o
+unarchive.c: In function 'extract_archive':
+unarchive.c:87:13: warning: unused variable 'res' [-Wunused-variable]
+         int res;
+             ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-unarchive.lo -MD -MP -MF .deps/libbb_la-unarchive.Tpo -c unarchive.c -o libbb_la-unarchive.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-copy_file.lo -MD -MP -MF ".deps/libbb_la-copy_file.Tpo" -c -o libbb_la-copy_file.lo `test -f 'copy_file.c' || echo './'`copy_file.c; \
+then mv -f ".deps/libbb_la-copy_file.Tpo" ".deps/libbb_la-copy_file.Plo"; else rm -f ".deps/libbb_la-copy_file.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-copy_file.lo -MD -MP -MF .deps/libbb_la-copy_file.Tpo -c copy_file.c  -fPIC -DPIC -o .libs/libbb_la-copy_file.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-copy_file.lo -MD -MP -MF .deps/libbb_la-copy_file.Tpo -c copy_file.c -o libbb_la-copy_file.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-copy_file_chunk.lo -MD -MP -MF ".deps/libbb_la-copy_file_chunk.Tpo" -c -o libbb_la-copy_file_chunk.lo `test -f 'copy_file_chunk.c' || echo './'`copy_file_chunk.c; \
+then mv -f ".deps/libbb_la-copy_file_chunk.Tpo" ".deps/libbb_la-copy_file_chunk.Plo"; else rm -f ".deps/libbb_la-copy_file_chunk.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-copy_file_chunk.lo -MD -MP -MF .deps/libbb_la-copy_file_chunk.Tpo -c copy_file_chunk.c  -fPIC -DPIC -o .libs/libbb_la-copy_file_chunk.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-copy_file_chunk.lo -MD -MP -MF .deps/libbb_la-copy_file_chunk.Tpo -c copy_file_chunk.c -o libbb_la-copy_file_chunk.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-error_msg.lo -MD -MP -MF ".deps/libbb_la-error_msg.Tpo" -c -o libbb_la-error_msg.lo `test -f 'error_msg.c' || echo './'`error_msg.c; \
+then mv -f ".deps/libbb_la-error_msg.Tpo" ".deps/libbb_la-error_msg.Plo"; else rm -f ".deps/libbb_la-error_msg.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-error_msg.lo -MD -MP -MF .deps/libbb_la-error_msg.Tpo -c error_msg.c  -fPIC -DPIC -o .libs/libbb_la-error_msg.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-error_msg.lo -MD -MP -MF .deps/libbb_la-error_msg.Tpo -c error_msg.c -o libbb_la-error_msg.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-error_msg_and_die.lo -MD -MP -MF ".deps/libbb_la-error_msg_and_die.Tpo" -c -o libbb_la-error_msg_and_die.lo `test -f 'error_msg_and_die.c' || echo './'`error_msg_and_die.c; \
+then mv -f ".deps/libbb_la-error_msg_and_die.Tpo" ".deps/libbb_la-error_msg_and_die.Plo"; else rm -f ".deps/libbb_la-error_msg_and_die.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-error_msg_and_die.lo -MD -MP -MF .deps/libbb_la-error_msg_and_die.Tpo -c error_msg_and_die.c  -fPIC -DPIC -o .libs/libbb_la-error_msg_and_die.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-error_msg_and_die.lo -MD -MP -MF .deps/libbb_la-error_msg_and_die.Tpo -c error_msg_and_die.c -o libbb_la-error_msg_and_die.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-perror_msg.lo -MD -MP -MF ".deps/libbb_la-perror_msg.Tpo" -c -o libbb_la-perror_msg.lo `test -f 'perror_msg.c' || echo './'`perror_msg.c; \
+then mv -f ".deps/libbb_la-perror_msg.Tpo" ".deps/libbb_la-perror_msg.Plo"; else rm -f ".deps/libbb_la-perror_msg.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-perror_msg.lo -MD -MP -MF .deps/libbb_la-perror_msg.Tpo -c perror_msg.c  -fPIC -DPIC -o .libs/libbb_la-perror_msg.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-perror_msg.lo -MD -MP -MF .deps/libbb_la-perror_msg.Tpo -c perror_msg.c -o libbb_la-perror_msg.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-perror_msg_and_die.lo -MD -MP -MF ".deps/libbb_la-perror_msg_and_die.Tpo" -c -o libbb_la-perror_msg_and_die.lo `test -f 'perror_msg_and_die.c' || echo './'`perror_msg_and_die.c; \
+then mv -f ".deps/libbb_la-perror_msg_and_die.Tpo" ".deps/libbb_la-perror_msg_and_die.Plo"; else rm -f ".deps/libbb_la-perror_msg_and_die.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-perror_msg_and_die.lo -MD -MP -MF .deps/libbb_la-perror_msg_and_die.Tpo -c perror_msg_and_die.c  -fPIC -DPIC -o .libs/libbb_la-perror_msg_and_die.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-perror_msg_and_die.lo -MD -MP -MF .deps/libbb_la-perror_msg_and_die.Tpo -c perror_msg_and_die.c -o libbb_la-perror_msg_and_die.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-xreadlink.lo -MD -MP -MF ".deps/libbb_la-xreadlink.Tpo" -c -o libbb_la-xreadlink.lo `test -f 'xreadlink.c' || echo './'`xreadlink.c; \
+then mv -f ".deps/libbb_la-xreadlink.Tpo" ".deps/libbb_la-xreadlink.Plo"; else rm -f ".deps/libbb_la-xreadlink.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-xreadlink.lo -MD -MP -MF .deps/libbb_la-xreadlink.Tpo -c xreadlink.c  -fPIC -DPIC -o .libs/libbb_la-xreadlink.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-xreadlink.lo -MD -MP -MF .deps/libbb_la-xreadlink.Tpo -c xreadlink.c -o libbb_la-xreadlink.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-concat_path_file.lo -MD -MP -MF ".deps/libbb_la-concat_path_file.Tpo" -c -o libbb_la-concat_path_file.lo `test -f 'concat_path_file.c' || echo './'`concat_path_file.c; \
+then mv -f ".deps/libbb_la-concat_path_file.Tpo" ".deps/libbb_la-concat_path_file.Plo"; else rm -f ".deps/libbb_la-concat_path_file.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-concat_path_file.lo -MD -MP -MF .deps/libbb_la-concat_path_file.Tpo -c concat_path_file.c  -fPIC -DPIC -o .libs/libbb_la-concat_path_file.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-concat_path_file.lo -MD -MP -MF .deps/libbb_la-concat_path_file.Tpo -c concat_path_file.c -o libbb_la-concat_path_file.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-ask_confirmation.lo -MD -MP -MF ".deps/libbb_la-ask_confirmation.Tpo" -c -o libbb_la-ask_confirmation.lo `test -f 'ask_confirmation.c' || echo './'`ask_confirmation.c; \
+then mv -f ".deps/libbb_la-ask_confirmation.Tpo" ".deps/libbb_la-ask_confirmation.Plo"; else rm -f ".deps/libbb_la-ask_confirmation.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-ask_confirmation.lo -MD -MP -MF .deps/libbb_la-ask_confirmation.Tpo -c ask_confirmation.c  -fPIC -DPIC -o .libs/libbb_la-ask_confirmation.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-ask_confirmation.lo -MD -MP -MF .deps/libbb_la-ask_confirmation.Tpo -c ask_confirmation.c -o libbb_la-ask_confirmation.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-verror_msg.lo -MD -MP -MF ".deps/libbb_la-verror_msg.Tpo" -c -o libbb_la-verror_msg.lo `test -f 'verror_msg.c' || echo './'`verror_msg.c; \
+then mv -f ".deps/libbb_la-verror_msg.Tpo" ".deps/libbb_la-verror_msg.Plo"; else rm -f ".deps/libbb_la-verror_msg.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-verror_msg.lo -MD -MP -MF .deps/libbb_la-verror_msg.Tpo -c verror_msg.c  -fPIC -DPIC -o .libs/libbb_la-verror_msg.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-verror_msg.lo -MD -MP -MF .deps/libbb_la-verror_msg.Tpo -c verror_msg.c -o libbb_la-verror_msg.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-vperror_msg.lo -MD -MP -MF ".deps/libbb_la-vperror_msg.Tpo" -c -o libbb_la-vperror_msg.lo `test -f 'vperror_msg.c' || echo './'`vperror_msg.c; \
+then mv -f ".deps/libbb_la-vperror_msg.Tpo" ".deps/libbb_la-vperror_msg.Plo"; else rm -f ".deps/libbb_la-vperror_msg.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-vperror_msg.lo -MD -MP -MF .deps/libbb_la-vperror_msg.Tpo -c vperror_msg.c  -fPIC -DPIC -o .libs/libbb_la-vperror_msg.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-vperror_msg.lo -MD -MP -MF .deps/libbb_la-vperror_msg.Tpo -c vperror_msg.c -o libbb_la-vperror_msg.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-xfuncs.lo -MD -MP -MF ".deps/libbb_la-xfuncs.Tpo" -c -o libbb_la-xfuncs.lo `test -f 'xfuncs.c' || echo './'`xfuncs.c; \
+then mv -f ".deps/libbb_la-xfuncs.Tpo" ".deps/libbb_la-xfuncs.Plo"; else rm -f ".deps/libbb_la-xfuncs.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-xfuncs.lo -MD -MP -MF .deps/libbb_la-xfuncs.Tpo -c xfuncs.c  -fPIC -DPIC -o .libs/libbb_la-xfuncs.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-xfuncs.lo -MD -MP -MF .deps/libbb_la-xfuncs.Tpo -c xfuncs.c -o libbb_la-xfuncs.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-messages.lo -MD -MP -MF ".deps/libbb_la-messages.Tpo" -c -o libbb_la-messages.lo `test -f 'messages.c' || echo './'`messages.c; \
+then mv -f ".deps/libbb_la-messages.Tpo" ".deps/libbb_la-messages.Plo"; else rm -f ".deps/libbb_la-messages.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-messages.lo -MD -MP -MF .deps/libbb_la-messages.Tpo -c messages.c  -fPIC -DPIC -o .libs/libbb_la-messages.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-messages.lo -MD -MP -MF .deps/libbb_la-messages.Tpo -c messages.c -o libbb_la-messages.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-last_char_is.lo -MD -MP -MF ".deps/libbb_la-last_char_is.Tpo" -c -o libbb_la-last_char_is.lo `test -f 'last_char_is.c' || echo './'`last_char_is.c; \
+then mv -f ".deps/libbb_la-last_char_is.Tpo" ".deps/libbb_la-last_char_is.Plo"; else rm -f ".deps/libbb_la-last_char_is.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-last_char_is.lo -MD -MP -MF .deps/libbb_la-last_char_is.Tpo -c last_char_is.c  -fPIC -DPIC -o .libs/libbb_la-last_char_is.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-last_char_is.lo -MD -MP -MF .deps/libbb_la-last_char_is.Tpo -c last_char_is.c -o libbb_la-last_char_is.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-make_directory.lo -MD -MP -MF ".deps/libbb_la-make_directory.Tpo" -c -o libbb_la-make_directory.lo `test -f 'make_directory.c' || echo './'`make_directory.c; \
+then mv -f ".deps/libbb_la-make_directory.Tpo" ".deps/libbb_la-make_directory.Plo"; else rm -f ".deps/libbb_la-make_directory.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-make_directory.lo -MD -MP -MF .deps/libbb_la-make_directory.Tpo -c make_directory.c  -fPIC -DPIC -o .libs/libbb_la-make_directory.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-make_directory.lo -MD -MP -MF .deps/libbb_la-make_directory.Tpo -c make_directory.c -o libbb_la-make_directory.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-safe_strncpy.lo -MD -MP -MF ".deps/libbb_la-safe_strncpy.Tpo" -c -o libbb_la-safe_strncpy.lo `test -f 'safe_strncpy.c' || echo './'`safe_strncpy.c; \
+then mv -f ".deps/libbb_la-safe_strncpy.Tpo" ".deps/libbb_la-safe_strncpy.Plo"; else rm -f ".deps/libbb_la-safe_strncpy.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-safe_strncpy.lo -MD -MP -MF .deps/libbb_la-safe_strncpy.Tpo -c safe_strncpy.c  -fPIC -DPIC -o .libs/libbb_la-safe_strncpy.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-safe_strncpy.lo -MD -MP -MF .deps/libbb_la-safe_strncpy.Tpo -c safe_strncpy.c -o libbb_la-safe_strncpy.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-parse_mode.lo -MD -MP -MF ".deps/libbb_la-parse_mode.Tpo" -c -o libbb_la-parse_mode.lo `test -f 'parse_mode.c' || echo './'`parse_mode.c; \
+then mv -f ".deps/libbb_la-parse_mode.Tpo" ".deps/libbb_la-parse_mode.Plo"; else rm -f ".deps/libbb_la-parse_mode.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-parse_mode.lo -MD -MP -MF .deps/libbb_la-parse_mode.Tpo -c parse_mode.c  -fPIC -DPIC -o .libs/libbb_la-parse_mode.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-parse_mode.lo -MD -MP -MF .deps/libbb_la-parse_mode.Tpo -c parse_mode.c -o libbb_la-parse_mode.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-time_string.lo -MD -MP -MF ".deps/libbb_la-time_string.Tpo" -c -o libbb_la-time_string.lo `test -f 'time_string.c' || echo './'`time_string.c; \
+then mv -f ".deps/libbb_la-time_string.Tpo" ".deps/libbb_la-time_string.Plo"; else rm -f ".deps/libbb_la-time_string.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-time_string.lo -MD -MP -MF .deps/libbb_la-time_string.Tpo -c time_string.c  -fPIC -DPIC -o .libs/libbb_la-time_string.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-time_string.lo -MD -MP -MF .deps/libbb_la-time_string.Tpo -c time_string.c -o libbb_la-time_string.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-all_read.lo -MD -MP -MF ".deps/libbb_la-all_read.Tpo" -c -o libbb_la-all_read.lo `test -f 'all_read.c' || echo './'`all_read.c; \
+then mv -f ".deps/libbb_la-all_read.Tpo" ".deps/libbb_la-all_read.Plo"; else rm -f ".deps/libbb_la-all_read.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-all_read.lo -MD -MP -MF .deps/libbb_la-all_read.Tpo -c all_read.c  -fPIC -DPIC -o .libs/libbb_la-all_read.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-all_read.lo -MD -MP -MF .deps/libbb_la-all_read.Tpo -c all_read.c -o libbb_la-all_read.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I..    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-mode_string.lo -MD -MP -MF ".deps/libbb_la-mode_string.Tpo" -c -o libbb_la-mode_string.lo `test -f 'mode_string.c' || echo './'`mode_string.c; \
+then mv -f ".deps/libbb_la-mode_string.Tpo" ".deps/libbb_la-mode_string.Plo"; else rm -f ".deps/libbb_la-mode_string.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-mode_string.lo -MD -MP -MF .deps/libbb_la-mode_string.Tpo -c mode_string.c  -fPIC -DPIC -o .libs/libbb_la-mode_string.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.. -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -g3 -gdwarf-2 -MT libbb_la-mode_string.lo -MD -MP -MF .deps/libbb_la-mode_string.Tpo -c mode_string.c -o libbb_la-mode_string.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=CC --mode=link /usr/bin/gcc  -g3 -gdwarf-2   -o libbb.la   libbb_la-gz_open.lo libbb_la-unzip.lo libbb_la-wfopen.lo libbb_la-unarchive.lo libbb_la-copy_file.lo libbb_la-copy_file_chunk.lo libbb_la-error_msg.lo libbb_la-error_msg_and_die.lo libbb_la-perror_msg.lo libbb_la-perror_msg_and_die.lo libbb_la-xreadlink.lo libbb_la-concat_path_file.lo libbb_la-ask_confirmation.lo libbb_la-verror_msg.lo libbb_la-vperror_msg.lo libbb_la-xfuncs.lo libbb_la-messages.lo libbb_la-last_char_is.lo libbb_la-make_directory.lo libbb_la-safe_strncpy.lo libbb_la-parse_mode.lo libbb_la-time_string.lo libbb_la-all_read.lo libbb_la-mode_string.lo  
+ar cru .libs/libbb.a .libs/libbb_la-gz_open.o .libs/libbb_la-unzip.o .libs/libbb_la-wfopen.o .libs/libbb_la-unarchive.o .libs/libbb_la-copy_file.o .libs/libbb_la-copy_file_chunk.o .libs/libbb_la-error_msg.o .libs/libbb_la-error_msg_and_die.o .libs/libbb_la-perror_msg.o .libs/libbb_la-perror_msg_and_die.o .libs/libbb_la-xreadlink.o .libs/libbb_la-concat_path_file.o .libs/libbb_la-ask_confirmation.o .libs/libbb_la-verror_msg.o .libs/libbb_la-vperror_msg.o .libs/libbb_la-xfuncs.o .libs/libbb_la-messages.o .libs/libbb_la-last_char_is.o .libs/libbb_la-make_directory.o .libs/libbb_la-safe_strncpy.o .libs/libbb_la-parse_mode.o .libs/libbb_la-time_string.o .libs/libbb_la-all_read.o .libs/libbb_la-mode_string.o
+ranlib .libs/libbb.a
+creating libbb.la
+(cd .libs && rm -f libbb.la && ln -s ../libbb.la libbb.la)
+make[2]: Выход из каталога `/home/dg/OS/RESOURCE/USP/libbb'
+make[2]: Вход в каталог `/home/dg/OS/RESOURCE/USP'
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-args.lo -MD -MP -MF ".deps/libipkg_la-args.Tpo" -c -o libipkg_la-args.lo `test -f 'args.c' || echo './'`args.c; \
+then mv -f ".deps/libipkg_la-args.Tpo" ".deps/libipkg_la-args.Plo"; else rm -f ".deps/libipkg_la-args.Tpo"; exit 1; fi
+mkdir .libs
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-args.lo -MD -MP -MF .deps/libipkg_la-args.Tpo -c args.c  -fPIC -DPIC -o .libs/libipkg_la-args.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-args.lo -MD -MP -MF .deps/libipkg_la-args.Tpo -c args.c -o libipkg_la-args.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-libipkg.lo -MD -MP -MF ".deps/libipkg_la-libipkg.Tpo" -c -o libipkg_la-libipkg.lo `test -f 'libipkg.c' || echo './'`libipkg.c; \
+then mv -f ".deps/libipkg_la-libipkg.Tpo" ".deps/libipkg_la-libipkg.Plo"; else rm -f ".deps/libipkg_la-libipkg.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-libipkg.lo -MD -MP -MF .deps/libipkg_la-libipkg.Tpo -c libipkg.c  -fPIC -DPIC -o .libs/libipkg_la-libipkg.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-libipkg.lo -MD -MP -MF .deps/libipkg_la-libipkg.Tpo -c libipkg.c -o libipkg_la-libipkg.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-user.lo -MD -MP -MF ".deps/libipkg_la-user.Tpo" -c -o libipkg_la-user.lo `test -f 'user.c' || echo './'`user.c; \
+then mv -f ".deps/libipkg_la-user.Tpo" ".deps/libipkg_la-user.Plo"; else rm -f ".deps/libipkg_la-user.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-user.lo -MD -MP -MF .deps/libipkg_la-user.Tpo -c user.c  -fPIC -DPIC -o .libs/libipkg_la-user.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-user.lo -MD -MP -MF .deps/libipkg_la-user.Tpo -c user.c -o libipkg_la-user.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_cmd.lo -MD -MP -MF ".deps/libipkg_la-ipkg_cmd.Tpo" -c -o libipkg_la-ipkg_cmd.lo `test -f 'ipkg_cmd.c' || echo './'`ipkg_cmd.c; \
+then mv -f ".deps/libipkg_la-ipkg_cmd.Tpo" ".deps/libipkg_la-ipkg_cmd.Plo"; else rm -f ".deps/libipkg_la-ipkg_cmd.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_cmd.lo -MD -MP -MF .deps/libipkg_la-ipkg_cmd.Tpo -c ipkg_cmd.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_cmd.o
+ipkg_cmd.c: In function 'ipkg_info_status_cmd':
+ipkg_cmd.c:718:10: warning: variable 'n_fields' set but not used [-Wunused-but-set-variable]
+      int n_fields = 0;
+          ^
+ipkg_cmd.c:717:13: warning: variable 'pkg_fields' set but not used [-Wunused-but-set-variable]
+      char **pkg_fields = NULL;
+             ^
+ipkg_cmd.c: In function 'ipkg_flag_cmd':
+ipkg_cmd.c:1001:8: warning: passing argument 1 of 'pkg_state_flag_from_str' discards 'const' qualifier from pointer target type [enabled by default]
+        pkg->state_flag = pkg_state_flag_from_str(flags);
+        ^
+In file included from ipkg_conf.h:26:0,
+                 from ipkg.h:30,
+                 from ipkg_cmd.c:20:
+pkg.h:219:18: note: expected 'char *' but argument is of type 'const char *'
+ pkg_state_flag_t pkg_state_flag_from_str(char *str);
+                  ^
+ipkg_cmd.c:1006:8: warning: passing argument 1 of 'pkg_state_status_from_str' discards 'const' qualifier from pointer target type [enabled by default]
+        pkg->state_status = pkg_state_status_from_str(flags);
+        ^
+In file included from ipkg_conf.h:26:0,
+                 from ipkg.h:30,
+                 from ipkg_cmd.c:20:
+pkg.h:221:20: note: expected 'char *' but argument is of type 'const char *'
+ pkg_state_status_t pkg_state_status_from_str(char *str);
+                    ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_cmd.lo -MD -MP -MF .deps/libipkg_la-ipkg_cmd.Tpo -c ipkg_cmd.c -o libipkg_la-ipkg_cmd.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_configure.lo -MD -MP -MF ".deps/libipkg_la-ipkg_configure.Tpo" -c -o libipkg_la-ipkg_configure.lo `test -f 'ipkg_configure.c' || echo './'`ipkg_configure.c; \
+then mv -f ".deps/libipkg_la-ipkg_configure.Tpo" ".deps/libipkg_la-ipkg_configure.Plo"; else rm -f ".deps/libipkg_la-ipkg_configure.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_configure.lo -MD -MP -MF .deps/libipkg_la-ipkg_configure.Tpo -c ipkg_configure.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_configure.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_configure.lo -MD -MP -MF .deps/libipkg_la-ipkg_configure.Tpo -c ipkg_configure.c -o libipkg_la-ipkg_configure.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_download.lo -MD -MP -MF ".deps/libipkg_la-ipkg_download.Tpo" -c -o libipkg_la-ipkg_download.lo `test -f 'ipkg_download.c' || echo './'`ipkg_download.c; \
+then mv -f ".deps/libipkg_la-ipkg_download.Tpo" ".deps/libipkg_la-ipkg_download.Plo"; else rm -f ".deps/libipkg_la-ipkg_download.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_download.lo -MD -MP -MF .deps/libipkg_la-ipkg_download.Tpo -c ipkg_download.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_download.o
+ipkg_download.c: In function 'ipkg_prepare_url_for_install':
+ipkg_download.c:169:36: warning: unknown escape sequence: '\)' [enabled by default]
+    ipkg_message(conf, IPKG_DEBUG2, "Package %s provided by hand \(%s\).\n", pkg->name,pkg->local_filename);
+                                    ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_download.lo -MD -MP -MF .deps/libipkg_la-ipkg_download.Tpo -c ipkg_download.c -o libipkg_la-ipkg_download.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_install.lo -MD -MP -MF ".deps/libipkg_la-ipkg_install.Tpo" -c -o libipkg_la-ipkg_install.lo `test -f 'ipkg_install.c' || echo './'`ipkg_install.c; \
+then mv -f ".deps/libipkg_la-ipkg_install.Tpo" ".deps/libipkg_la-ipkg_install.Plo"; else rm -f ".deps/libipkg_la-ipkg_install.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_install.lo -MD -MP -MF .deps/libipkg_la-ipkg_install.Tpo -c ipkg_install.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_install.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_install.lo -MD -MP -MF .deps/libipkg_la-ipkg_install.Tpo -c ipkg_install.c -o libipkg_la-ipkg_install.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_upgrade.lo -MD -MP -MF ".deps/libipkg_la-ipkg_upgrade.Tpo" -c -o libipkg_la-ipkg_upgrade.lo `test -f 'ipkg_upgrade.c' || echo './'`ipkg_upgrade.c; \
+then mv -f ".deps/libipkg_la-ipkg_upgrade.Tpo" ".deps/libipkg_la-ipkg_upgrade.Plo"; else rm -f ".deps/libipkg_la-ipkg_upgrade.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_upgrade.lo -MD -MP -MF .deps/libipkg_la-ipkg_upgrade.Tpo -c ipkg_upgrade.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_upgrade.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_upgrade.lo -MD -MP -MF .deps/libipkg_la-ipkg_upgrade.Tpo -c ipkg_upgrade.c -o libipkg_la-ipkg_upgrade.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_remove.lo -MD -MP -MF ".deps/libipkg_la-ipkg_remove.Tpo" -c -o libipkg_la-ipkg_remove.lo `test -f 'ipkg_remove.c' || echo './'`ipkg_remove.c; \
+then mv -f ".deps/libipkg_la-ipkg_remove.Tpo" ".deps/libipkg_la-ipkg_remove.Plo"; else rm -f ".deps/libipkg_la-ipkg_remove.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_remove.lo -MD -MP -MF .deps/libipkg_la-ipkg_remove.Tpo -c ipkg_remove.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_remove.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_remove.lo -MD -MP -MF .deps/libipkg_la-ipkg_remove.Tpo -c ipkg_remove.c -o libipkg_la-ipkg_remove.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_conf.lo -MD -MP -MF ".deps/libipkg_la-ipkg_conf.Tpo" -c -o libipkg_la-ipkg_conf.lo `test -f 'ipkg_conf.c' || echo './'`ipkg_conf.c; \
+then mv -f ".deps/libipkg_la-ipkg_conf.Tpo" ".deps/libipkg_la-ipkg_conf.Plo"; else rm -f ".deps/libipkg_la-ipkg_conf.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_conf.lo -MD -MP -MF .deps/libipkg_la-ipkg_conf.Tpo -c ipkg_conf.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_conf.o
+ipkg_conf.c: In function 'ipkg_conf_parse_file':
+ipkg_conf.c:551:9: warning: passing argument 1 of 'nv_pair_list_find' from incompatible pointer type [enabled by default]
+         if (!nv_pair_list_find(pkg_src_list, name)) {
+         ^
+In file included from conffile_list.h:22:0,
+                 from pkg.h:30,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from ipkg_conf.c:20:
+nv_pair_list.h:57:7: note: expected 'struct nv_pair_list_t *' but argument is of type 'struct pkg_src_list_t *'
+ char *nv_pair_list_find(nv_pair_list_t *list, char *name);
+       ^
+ipkg_conf.c:558:9: warning: passing argument 1 of 'nv_pair_list_find' from incompatible pointer type [enabled by default]
+         if (!nv_pair_list_find(pkg_src_list, name)) {
+         ^
+In file included from conffile_list.h:22:0,
+                 from pkg.h:30,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from ipkg_conf.c:20:
+nv_pair_list.h:57:7: note: expected 'struct nv_pair_list_t *' but argument is of type 'struct pkg_src_list_t *'
+ char *nv_pair_list_find(nv_pair_list_t *list, char *name);
+       ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_conf.lo -MD -MP -MF .deps/libipkg_la-ipkg_conf.Tpo -c ipkg_conf.c -o libipkg_la-ipkg_conf.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_utils.lo -MD -MP -MF ".deps/libipkg_la-ipkg_utils.Tpo" -c -o libipkg_la-ipkg_utils.lo `test -f 'ipkg_utils.c' || echo './'`ipkg_utils.c; \
+then mv -f ".deps/libipkg_la-ipkg_utils.Tpo" ".deps/libipkg_la-ipkg_utils.Plo"; else rm -f ".deps/libipkg_la-ipkg_utils.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_utils.lo -MD -MP -MF .deps/libipkg_la-ipkg_utils.Tpo -c ipkg_utils.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_utils.o
+ipkg_utils.c: In function 'trim_alloc':
+ipkg_utils.c:97:12: warning: variable 'dest' set but not used [-Wunused-but-set-variable]
+      char *dest, *src, *end;
+            ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_utils.lo -MD -MP -MF .deps/libipkg_la-ipkg_utils.Tpo -c ipkg_utils.c -o libipkg_la-ipkg_utils.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg.lo -MD -MP -MF ".deps/libipkg_la-pkg.Tpo" -c -o libipkg_la-pkg.lo `test -f 'pkg.c' || echo './'`pkg.c; \
+then mv -f ".deps/libipkg_la-pkg.Tpo" ".deps/libipkg_la-pkg.Plo"; else rm -f ".deps/libipkg_la-pkg.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg.lo -MD -MP -MF .deps/libipkg_la-pkg.Tpo -c pkg.c  -fPIC -DPIC -o .libs/libipkg_la-pkg.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg.lo -MD -MP -MF .deps/libipkg_la-pkg.Tpo -c pkg.c -o libipkg_la-pkg.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_depends.lo -MD -MP -MF ".deps/libipkg_la-pkg_depends.Tpo" -c -o libipkg_la-pkg_depends.lo `test -f 'pkg_depends.c' || echo './'`pkg_depends.c; \
+then mv -f ".deps/libipkg_la-pkg_depends.Tpo" ".deps/libipkg_la-pkg_depends.Plo"; else rm -f ".deps/libipkg_la-pkg_depends.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_depends.lo -MD -MP -MF .deps/libipkg_la-pkg_depends.Tpo -c pkg_depends.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_depends.o
+pkg_depends.c: In function 'is_pkg_a_replaces':
+pkg_depends.c:270:22: warning: variable 'replaces' set but not used [-Wunused-but-set-variable]
+     abstract_pkg_t **replaces;
+                      ^
+pkg_depends.c: In function 'pkg_hash_fetch_conflicts':
+pkg_depends.c:296:9: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+     int count;
+         ^
+pkg_depends.c: In function 'buildProvides':
+pkg_depends.c:657:21: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+     register int i, j;
+                     ^
+pkg_depends.c: In function 'buildReplaces':
+pkg_depends.c:719:22: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+      register int i, j;
+                      ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_depends.lo -MD -MP -MF .deps/libipkg_la-pkg_depends.Tpo -c pkg_depends.c -o libipkg_la-pkg_depends.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_extract.lo -MD -MP -MF ".deps/libipkg_la-pkg_extract.Tpo" -c -o libipkg_la-pkg_extract.lo `test -f 'pkg_extract.c' || echo './'`pkg_extract.c; \
+then mv -f ".deps/libipkg_la-pkg_extract.Tpo" ".deps/libipkg_la-pkg_extract.Plo"; else rm -f ".deps/libipkg_la-pkg_extract.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_extract.lo -MD -MP -MF .deps/libipkg_la-pkg_extract.Tpo -c pkg_extract.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_extract.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_extract.lo -MD -MP -MF .deps/libipkg_la-pkg_extract.Tpo -c pkg_extract.c -o libipkg_la-pkg_extract.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-hash_table.lo -MD -MP -MF ".deps/libipkg_la-hash_table.Tpo" -c -o libipkg_la-hash_table.lo `test -f 'hash_table.c' || echo './'`hash_table.c; \
+then mv -f ".deps/libipkg_la-hash_table.Tpo" ".deps/libipkg_la-hash_table.Plo"; else rm -f ".deps/libipkg_la-hash_table.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-hash_table.lo -MD -MP -MF .deps/libipkg_la-hash_table.Tpo -c hash_table.c  -fPIC -DPIC -o .libs/libipkg_la-hash_table.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-hash_table.lo -MD -MP -MF .deps/libipkg_la-hash_table.Tpo -c hash_table.c -o libipkg_la-hash_table.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_hash.lo -MD -MP -MF ".deps/libipkg_la-pkg_hash.Tpo" -c -o libipkg_la-pkg_hash.lo `test -f 'pkg_hash.c' || echo './'`pkg_hash.c; \
+then mv -f ".deps/libipkg_la-pkg_hash.Tpo" ".deps/libipkg_la-pkg_hash.Plo"; else rm -f ".deps/libipkg_la-pkg_hash.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_hash.lo -MD -MP -MF .deps/libipkg_la-pkg_hash.Tpo -c pkg_hash.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_hash.o
+pkg_hash.c: In function 'pkg_hash_fetch_best_installation_candidate':
+pkg_hash.c:229:4: warning: passing argument 2 of 'pkg_vec_sort' from incompatible pointer type [enabled by default]
+    pkg_vec_sort(matching_pkgs, pkg_name_version_and_architecture_compare);
+    ^
+In file included from pkg.h:25:0,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from pkg_hash.c:18:
+pkg_vec.h:50:6: note: expected 'int (*)(struct pkg_t *, struct pkg_t *)' but argument is of type 'int (*)(void *, void *)'
+ void pkg_vec_sort(pkg_vec_t *vec, int (*compar)(pkg_t *, pkg_t *));
+      ^
+pkg_hash.c:231:4: warning: passing argument 2 of 'abstract_pkg_vec_sort' from incompatible pointer type [enabled by default]
+    abstract_pkg_vec_sort(matching_pkgs, abstract_pkg_name_compare);
+    ^
+In file included from pkg.h:25:0,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from pkg_hash.c:18:
+pkg_vec.h:60:6: note: expected 'int (*)(struct abstract_pkg_t *, struct abstract_pkg_t *)' but argument is of type 'int (*)(void *, void *)'
+ void abstract_pkg_vec_sort(pkg_vec_t *vec, int (*compar)(abstract_pkg_t *, abstract_pkg_t *));
+      ^
+pkg_hash.c: In function 'hash_insert_pkg':
+pkg_hash.c:519:10: warning: variable 'arch_priority' set but not used [-Wunused-but-set-variable]
+      int arch_priority;
+          ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_hash.lo -MD -MP -MF .deps/libipkg_la-pkg_hash.Tpo -c pkg_hash.c -o libipkg_la-pkg_hash.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_parse.lo -MD -MP -MF ".deps/libipkg_la-pkg_parse.Tpo" -c -o libipkg_la-pkg_parse.lo `test -f 'pkg_parse.c' || echo './'`pkg_parse.c; \
+then mv -f ".deps/libipkg_la-pkg_parse.Tpo" ".deps/libipkg_la-pkg_parse.Plo"; else rm -f ".deps/libipkg_la-pkg_parse.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_parse.lo -MD -MP -MF .deps/libipkg_la-pkg_parse.Tpo -c pkg_parse.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_parse.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_parse.lo -MD -MP -MF .deps/libipkg_la-pkg_parse.Tpo -c pkg_parse.c -o libipkg_la-pkg_parse.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_vec.lo -MD -MP -MF ".deps/libipkg_la-pkg_vec.Tpo" -c -o libipkg_la-pkg_vec.lo `test -f 'pkg_vec.c' || echo './'`pkg_vec.c; \
+then mv -f ".deps/libipkg_la-pkg_vec.Tpo" ".deps/libipkg_la-pkg_vec.Plo"; else rm -f ".deps/libipkg_la-pkg_vec.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_vec.lo -MD -MP -MF .deps/libipkg_la-pkg_vec.Tpo -c pkg_vec.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_vec.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_vec.lo -MD -MP -MF .deps/libipkg_la-pkg_vec.Tpo -c pkg_vec.c -o libipkg_la-pkg_vec.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-file_util.lo -MD -MP -MF ".deps/libipkg_la-file_util.Tpo" -c -o libipkg_la-file_util.lo `test -f 'file_util.c' || echo './'`file_util.c; \
+then mv -f ".deps/libipkg_la-file_util.Tpo" ".deps/libipkg_la-file_util.Plo"; else rm -f ".deps/libipkg_la-file_util.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-file_util.lo -MD -MP -MF .deps/libipkg_la-file_util.Tpo -c file_util.c  -fPIC -DPIC -o .libs/libipkg_la-file_util.o
+file_util.c: In function 'file_md5sum_alloc':
+file_util.c:175:5: warning: pointer targets in return differ in signedness [-Wpointer-sign]
+     return md5sum_hex;
+     ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-file_util.lo -MD -MP -MF .deps/libipkg_la-file_util.Tpo -c file_util.c -o libipkg_la-file_util.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_message.lo -MD -MP -MF ".deps/libipkg_la-ipkg_message.Tpo" -c -o libipkg_la-ipkg_message.lo `test -f 'ipkg_message.c' || echo './'`ipkg_message.c; \
+then mv -f ".deps/libipkg_la-ipkg_message.Tpo" ".deps/libipkg_la-ipkg_message.Plo"; else rm -f ".deps/libipkg_la-ipkg_message.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_message.lo -MD -MP -MF .deps/libipkg_la-ipkg_message.Tpo -c ipkg_message.c  -fPIC -DPIC -o .libs/libipkg_la-ipkg_message.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-ipkg_message.lo -MD -MP -MF .deps/libipkg_la-ipkg_message.Tpo -c ipkg_message.c -o libipkg_la-ipkg_message.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-md5.lo -MD -MP -MF ".deps/libipkg_la-md5.Tpo" -c -o libipkg_la-md5.lo `test -f 'md5.c' || echo './'`md5.c; \
+then mv -f ".deps/libipkg_la-md5.Tpo" ".deps/libipkg_la-md5.Plo"; else rm -f ".deps/libipkg_la-md5.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-md5.lo -MD -MP -MF .deps/libipkg_la-md5.Tpo -c md5.c  -fPIC -DPIC -o .libs/libipkg_la-md5.o
+md5.c: In function 'md5_process_block':
+md5.c:424:7: warning: operation on 'temp' may be undefined [-Wsequence-point]
+  temp = CYCLIC (temp, ps[i&3]);
+       ^
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-md5.lo -MD -MP -MF .deps/libipkg_la-md5.Tpo -c md5.c -o libipkg_la-md5.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-sprintf_alloc.lo -MD -MP -MF ".deps/libipkg_la-sprintf_alloc.Tpo" -c -o libipkg_la-sprintf_alloc.lo `test -f 'sprintf_alloc.c' || echo './'`sprintf_alloc.c; \
+then mv -f ".deps/libipkg_la-sprintf_alloc.Tpo" ".deps/libipkg_la-sprintf_alloc.Plo"; else rm -f ".deps/libipkg_la-sprintf_alloc.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-sprintf_alloc.lo -MD -MP -MF .deps/libipkg_la-sprintf_alloc.Tpo -c sprintf_alloc.c  -fPIC -DPIC -o .libs/libipkg_la-sprintf_alloc.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-sprintf_alloc.lo -MD -MP -MF .deps/libipkg_la-sprintf_alloc.Tpo -c sprintf_alloc.c -o libipkg_la-sprintf_alloc.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-str_util.lo -MD -MP -MF ".deps/libipkg_la-str_util.Tpo" -c -o libipkg_la-str_util.lo `test -f 'str_util.c' || echo './'`str_util.c; \
+then mv -f ".deps/libipkg_la-str_util.Tpo" ".deps/libipkg_la-str_util.Plo"; else rm -f ".deps/libipkg_la-str_util.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-str_util.lo -MD -MP -MF .deps/libipkg_la-str_util.Tpo -c str_util.c  -fPIC -DPIC -o .libs/libipkg_la-str_util.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-str_util.lo -MD -MP -MF .deps/libipkg_la-str_util.Tpo -c str_util.c -o libipkg_la-str_util.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-xregex.lo -MD -MP -MF ".deps/libipkg_la-xregex.Tpo" -c -o libipkg_la-xregex.lo `test -f 'xregex.c' || echo './'`xregex.c; \
+then mv -f ".deps/libipkg_la-xregex.Tpo" ".deps/libipkg_la-xregex.Plo"; else rm -f ".deps/libipkg_la-xregex.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-xregex.lo -MD -MP -MF .deps/libipkg_la-xregex.Tpo -c xregex.c  -fPIC -DPIC -o .libs/libipkg_la-xregex.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-xregex.lo -MD -MP -MF .deps/libipkg_la-xregex.Tpo -c xregex.c -o libipkg_la-xregex.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-xsystem.lo -MD -MP -MF ".deps/libipkg_la-xsystem.Tpo" -c -o libipkg_la-xsystem.lo `test -f 'xsystem.c' || echo './'`xsystem.c; \
+then mv -f ".deps/libipkg_la-xsystem.Tpo" ".deps/libipkg_la-xsystem.Plo"; else rm -f ".deps/libipkg_la-xsystem.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-xsystem.lo -MD -MP -MF .deps/libipkg_la-xsystem.Tpo -c xsystem.c  -fPIC -DPIC -o .libs/libipkg_la-xsystem.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-xsystem.lo -MD -MP -MF .deps/libipkg_la-xsystem.Tpo -c xsystem.c -o libipkg_la-xsystem.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-conffile.lo -MD -MP -MF ".deps/libipkg_la-conffile.Tpo" -c -o libipkg_la-conffile.lo `test -f 'conffile.c' || echo './'`conffile.c; \
+then mv -f ".deps/libipkg_la-conffile.Tpo" ".deps/libipkg_la-conffile.Plo"; else rm -f ".deps/libipkg_la-conffile.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-conffile.lo -MD -MP -MF .deps/libipkg_la-conffile.Tpo -c conffile.c  -fPIC -DPIC -o .libs/libipkg_la-conffile.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-conffile.lo -MD -MP -MF .deps/libipkg_la-conffile.Tpo -c conffile.c -o libipkg_la-conffile.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-conffile_list.lo -MD -MP -MF ".deps/libipkg_la-conffile_list.Tpo" -c -o libipkg_la-conffile_list.lo `test -f 'conffile_list.c' || echo './'`conffile_list.c; \
+then mv -f ".deps/libipkg_la-conffile_list.Tpo" ".deps/libipkg_la-conffile_list.Plo"; else rm -f ".deps/libipkg_la-conffile_list.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-conffile_list.lo -MD -MP -MF .deps/libipkg_la-conffile_list.Tpo -c conffile_list.c  -fPIC -DPIC -o .libs/libipkg_la-conffile_list.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-conffile_list.lo -MD -MP -MF .deps/libipkg_la-conffile_list.Tpo -c conffile_list.c -o libipkg_la-conffile_list.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-nv_pair.lo -MD -MP -MF ".deps/libipkg_la-nv_pair.Tpo" -c -o libipkg_la-nv_pair.lo `test -f 'nv_pair.c' || echo './'`nv_pair.c; \
+then mv -f ".deps/libipkg_la-nv_pair.Tpo" ".deps/libipkg_la-nv_pair.Plo"; else rm -f ".deps/libipkg_la-nv_pair.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-nv_pair.lo -MD -MP -MF .deps/libipkg_la-nv_pair.Tpo -c nv_pair.c  -fPIC -DPIC -o .libs/libipkg_la-nv_pair.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-nv_pair.lo -MD -MP -MF .deps/libipkg_la-nv_pair.Tpo -c nv_pair.c -o libipkg_la-nv_pair.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-nv_pair_list.lo -MD -MP -MF ".deps/libipkg_la-nv_pair_list.Tpo" -c -o libipkg_la-nv_pair_list.lo `test -f 'nv_pair_list.c' || echo './'`nv_pair_list.c; \
+then mv -f ".deps/libipkg_la-nv_pair_list.Tpo" ".deps/libipkg_la-nv_pair_list.Plo"; else rm -f ".deps/libipkg_la-nv_pair_list.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-nv_pair_list.lo -MD -MP -MF .deps/libipkg_la-nv_pair_list.Tpo -c nv_pair_list.c  -fPIC -DPIC -o .libs/libipkg_la-nv_pair_list.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-nv_pair_list.lo -MD -MP -MF .deps/libipkg_la-nv_pair_list.Tpo -c nv_pair_list.c -o libipkg_la-nv_pair_list.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_dest.lo -MD -MP -MF ".deps/libipkg_la-pkg_dest.Tpo" -c -o libipkg_la-pkg_dest.lo `test -f 'pkg_dest.c' || echo './'`pkg_dest.c; \
+then mv -f ".deps/libipkg_la-pkg_dest.Tpo" ".deps/libipkg_la-pkg_dest.Plo"; else rm -f ".deps/libipkg_la-pkg_dest.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_dest.lo -MD -MP -MF .deps/libipkg_la-pkg_dest.Tpo -c pkg_dest.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_dest.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_dest.lo -MD -MP -MF .deps/libipkg_la-pkg_dest.Tpo -c pkg_dest.c -o libipkg_la-pkg_dest.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_dest_list.lo -MD -MP -MF ".deps/libipkg_la-pkg_dest_list.Tpo" -c -o libipkg_la-pkg_dest_list.lo `test -f 'pkg_dest_list.c' || echo './'`pkg_dest_list.c; \
+then mv -f ".deps/libipkg_la-pkg_dest_list.Tpo" ".deps/libipkg_la-pkg_dest_list.Plo"; else rm -f ".deps/libipkg_la-pkg_dest_list.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_dest_list.lo -MD -MP -MF .deps/libipkg_la-pkg_dest_list.Tpo -c pkg_dest_list.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_dest_list.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_dest_list.lo -MD -MP -MF .deps/libipkg_la-pkg_dest_list.Tpo -c pkg_dest_list.c -o libipkg_la-pkg_dest_list.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_src.lo -MD -MP -MF ".deps/libipkg_la-pkg_src.Tpo" -c -o libipkg_la-pkg_src.lo `test -f 'pkg_src.c' || echo './'`pkg_src.c; \
+then mv -f ".deps/libipkg_la-pkg_src.Tpo" ".deps/libipkg_la-pkg_src.Plo"; else rm -f ".deps/libipkg_la-pkg_src.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_src.lo -MD -MP -MF .deps/libipkg_la-pkg_src.Tpo -c pkg_src.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_src.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_src.lo -MD -MP -MF .deps/libipkg_la-pkg_src.Tpo -c pkg_src.c -o libipkg_la-pkg_src.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_src_list.lo -MD -MP -MF ".deps/libipkg_la-pkg_src_list.Tpo" -c -o libipkg_la-pkg_src_list.lo `test -f 'pkg_src_list.c' || echo './'`pkg_src_list.c; \
+then mv -f ".deps/libipkg_la-pkg_src_list.Tpo" ".deps/libipkg_la-pkg_src_list.Plo"; else rm -f ".deps/libipkg_la-pkg_src_list.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_src_list.lo -MD -MP -MF .deps/libipkg_la-pkg_src_list.Tpo -c pkg_src_list.c  -fPIC -DPIC -o .libs/libipkg_la-pkg_src_list.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-pkg_src_list.lo -MD -MP -MF .deps/libipkg_la-pkg_src_list.Tpo -c pkg_src_list.c -o libipkg_la-pkg_src_list.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-str_list.lo -MD -MP -MF ".deps/libipkg_la-str_list.Tpo" -c -o libipkg_la-str_list.lo `test -f 'str_list.c' || echo './'`str_list.c; \
+then mv -f ".deps/libipkg_la-str_list.Tpo" ".deps/libipkg_la-str_list.Plo"; else rm -f ".deps/libipkg_la-str_list.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-str_list.lo -MD -MP -MF .deps/libipkg_la-str_list.Tpo -c str_list.c  -fPIC -DPIC -o .libs/libipkg_la-str_list.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-str_list.lo -MD -MP -MF .deps/libipkg_la-str_list.Tpo -c str_list.c -o libipkg_la-str_list.o >/dev/null 2>&1
+if /bin/sh ./libtool --tag=CC --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-void_list.lo -MD -MP -MF ".deps/libipkg_la-void_list.Tpo" -c -o libipkg_la-void_list.lo `test -f 'void_list.c' || echo './'`void_list.c; \
+then mv -f ".deps/libipkg_la-void_list.Tpo" ".deps/libipkg_la-void_list.Plo"; else rm -f ".deps/libipkg_la-void_list.Tpo"; exit 1; fi
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-void_list.lo -MD -MP -MF .deps/libipkg_la-void_list.Tpo -c void_list.c  -fPIC -DPIC -o .libs/libipkg_la-void_list.o
+ /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I. -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT libipkg_la-void_list.lo -MD -MP -MF .deps/libipkg_la-void_list.Tpo -c void_list.c -o libipkg_la-void_list.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC --mode=link /usr/bin/gcc  -g3 -gdwarf-2   -o libipkg.la -rpath /usr/local/lib  libipkg_la-args.lo libipkg_la-libipkg.lo libipkg_la-user.lo libipkg_la-ipkg_cmd.lo libipkg_la-ipkg_configure.lo libipkg_la-ipkg_download.lo libipkg_la-ipkg_install.lo libipkg_la-ipkg_upgrade.lo libipkg_la-ipkg_remove.lo libipkg_la-ipkg_conf.lo libipkg_la-ipkg_utils.lo libipkg_la-pkg.lo libipkg_la-pkg_depends.lo libipkg_la-pkg_extract.lo libipkg_la-hash_table.lo libipkg_la-pkg_hash.lo libipkg_la-pkg_parse.lo libipkg_la-pkg_vec.lo libipkg_la-file_util.lo libipkg_la-ipkg_message.lo libipkg_la-md5.lo libipkg_la-sprintf_alloc.lo libipkg_la-str_util.lo libipkg_la-xregex.lo libipkg_la-xsystem.lo libipkg_la-conffile.lo libipkg_la-conffile_list.lo libipkg_la-nv_pair.lo libipkg_la-nv_pair_list.lo libipkg_la-pkg_dest.lo libipkg_la-pkg_dest_list.lo libipkg_la-pkg_src.lo libipkg_la-pkg_src_list.lo libipkg_la-str_list.lo libipkg_la-void_list.lo libbb/libbb.la  
+/usr/bin/gcc -shared  .libs/libipkg_la-args.o .libs/libipkg_la-libipkg.o .libs/libipkg_la-user.o .libs/libipkg_la-ipkg_cmd.o .libs/libipkg_la-ipkg_configure.o .libs/libipkg_la-ipkg_download.o .libs/libipkg_la-ipkg_install.o .libs/libipkg_la-ipkg_upgrade.o .libs/libipkg_la-ipkg_remove.o .libs/libipkg_la-ipkg_conf.o .libs/libipkg_la-ipkg_utils.o .libs/libipkg_la-pkg.o .libs/libipkg_la-pkg_depends.o .libs/libipkg_la-pkg_extract.o .libs/libipkg_la-hash_table.o .libs/libipkg_la-pkg_hash.o .libs/libipkg_la-pkg_parse.o .libs/libipkg_la-pkg_vec.o .libs/libipkg_la-file_util.o .libs/libipkg_la-ipkg_message.o .libs/libipkg_la-md5.o .libs/libipkg_la-sprintf_alloc.o .libs/libipkg_la-str_util.o .libs/libipkg_la-xregex.o .libs/libipkg_la-xsystem.o .libs/libipkg_la-conffile.o .libs/libipkg_la-conffile_list.o .libs/libipkg_la-nv_pair.o .libs/libipkg_la-nv_pair_list.o .libs/libipkg_la-pkg_dest.o .libs/libipkg_la-pkg_dest_list.o .libs/libipkg_la-pkg_src.o .libs/libipkg_la-pkg_src_list.o .libs/libipkg_la-str_list.o .libs/libipkg_la-void_list.o -Wl,--whole-archive libbb/.libs/libbb.a -Wl,--no-whole-archive   -Wl,-soname -Wl,libipkg.so.0 -o .libs/libipkg.so.0.0.0
+(cd .libs && rm -f libipkg.so.0 && ln -s libipkg.so.0.0.0 libipkg.so.0)
+(cd .libs && rm -f libipkg.so && ln -s libipkg.so.0.0.0 libipkg.so)
+rm -fr .libs/libipkg.lax
+mkdir .libs/libipkg.lax
+rm -fr .libs/libipkg.lax/libbb.a
+mkdir .libs/libipkg.lax/libbb.a
+(cd .libs/libipkg.lax/libbb.a && ar x /home/dg/OS/RESOURCE/USP/libbb/.libs/libbb.a)
+ar cru .libs/libipkg.a  libipkg_la-args.o libipkg_la-libipkg.o libipkg_la-user.o libipkg_la-ipkg_cmd.o libipkg_la-ipkg_configure.o libipkg_la-ipkg_download.o libipkg_la-ipkg_install.o libipkg_la-ipkg_upgrade.o libipkg_la-ipkg_remove.o libipkg_la-ipkg_conf.o libipkg_la-ipkg_utils.o libipkg_la-pkg.o libipkg_la-pkg_depends.o libipkg_la-pkg_extract.o libipkg_la-hash_table.o libipkg_la-pkg_hash.o libipkg_la-pkg_parse.o libipkg_la-pkg_vec.o libipkg_la-file_util.o libipkg_la-ipkg_message.o libipkg_la-md5.o libipkg_la-sprintf_alloc.o libipkg_la-str_util.o libipkg_la-xregex.o libipkg_la-xsystem.o libipkg_la-conffile.o libipkg_la-conffile_list.o libipkg_la-nv_pair.o libipkg_la-nv_pair_list.o libipkg_la-pkg_dest.o libipkg_la-pkg_dest_list.o libipkg_la-pkg_src.o libipkg_la-pkg_src_list.o libipkg_la-str_list.o libipkg_la-void_list.o  .libs/libipkg.lax/libbb.a/libbb_la-perror_msg.o .libs/libipkg.lax/libbb.a/libbb_la-all_read.o .libs/libipkg.lax/libbb.a/libbb_la-error_msg.o .libs/libipkg.lax/libbb.a/libbb_la-error_msg_and_die.o .libs/libipkg.lax/libbb.a/libbb_la-concat_path_file.o .libs/libipkg.lax/libbb.a/libbb_la-mode_string.o .libs/libipkg.lax/libbb.a/libbb_la-gz_open.o .libs/libipkg.lax/libbb.a/libbb_la-vperror_msg.o .libs/libipkg.lax/libbb.a/libbb_la-copy_file.o .libs/libipkg.lax/libbb.a/libbb_la-unarchive.o .libs/libipkg.lax/libbb.a/libbb_la-verror_msg.o .libs/libipkg.lax/libbb.a/libbb_la-make_directory.o .libs/libipkg.lax/libbb.a/libbb_la-xfuncs.o .libs/libipkg.lax/libbb.a/libbb_la-unzip.o .libs/libipkg.lax/libbb.a/libbb_la-copy_file_chunk.o .libs/libipkg.lax/libbb.a/libbb_la-xreadlink.o .libs/libipkg.lax/libbb.a/libbb_la-last_char_is.o .libs/libipkg.lax/libbb.a/libbb_la-time_string.o .libs/libipkg.lax/libbb.a/libbb_la-perror_msg_and_die.o .libs/libipkg.lax/libbb.a/libbb_la-wfopen.o .libs/libipkg.lax/libbb.a/libbb_la-messages.o .libs/libipkg.lax/libbb.a/libbb_la-ask_confirmation.o .libs/libipkg.lax/libbb.a/libbb_la-safe_strncpy.o .libs/libipkg.lax/libbb.a/libbb_la-parse_mode.o 
+ranlib .libs/libipkg.a
+rm -fr .libs/libipkg.lax
+creating libipkg.la
+(cd .libs && rm -f libipkg.la && ln -s ../libipkg.la libipkg.la)
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -DIPKG_LIB -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_cl-ipkg-frontend.o -MD -MP -MF ".deps/ipkg_cl-ipkg-frontend.Tpo" -c -o ipkg_cl-ipkg-frontend.o `test -f 'ipkg-frontend.c' || echo './'`ipkg-frontend.c; \
+then mv -f ".deps/ipkg_cl-ipkg-frontend.Tpo" ".deps/ipkg_cl-ipkg-frontend.Po"; else rm -f ".deps/ipkg_cl-ipkg-frontend.Tpo"; exit 1; fi
+/bin/sh ./libtool --tag=CC --mode=link /usr/bin/gcc  -g3 -gdwarf-2   -o ipkg-cl  ipkg_cl-ipkg-frontend.o libipkg.la libbb/libbb.la  
+/usr/bin/gcc -g3 -gdwarf-2 -o .libs/ipkg-cl ipkg_cl-ipkg-frontend.o  ./.libs/libipkg.so libbb/.libs/libbb.a -Wl,--rpath -Wl,/usr/local/lib
+creating ipkg-cl
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-ipkg_hash_test.o -MD -MP -MF ".deps/ipkg_hash_test-ipkg_hash_test.Tpo" -c -o ipkg_hash_test-ipkg_hash_test.o `test -f 'ipkg_hash_test.c' || echo './'`ipkg_hash_test.c; \
+then mv -f ".deps/ipkg_hash_test-ipkg_hash_test.Tpo" ".deps/ipkg_hash_test-ipkg_hash_test.Po"; else rm -f ".deps/ipkg_hash_test-ipkg_hash_test.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-ipkg_conf.o -MD -MP -MF ".deps/ipkg_hash_test-ipkg_conf.Tpo" -c -o ipkg_hash_test-ipkg_conf.o `test -f 'ipkg_conf.c' || echo './'`ipkg_conf.c; \
+then mv -f ".deps/ipkg_hash_test-ipkg_conf.Tpo" ".deps/ipkg_hash_test-ipkg_conf.Po"; else rm -f ".deps/ipkg_hash_test-ipkg_conf.Tpo"; exit 1; fi
+ipkg_conf.c: В функции «ipkg_conf_parse_file»:
+ipkg_conf.c:551:9: предупреждение: в передаче аргумента 1 «nv_pair_list_find»: несовместимый тип указателя [по умолчанию включена]
+         if (!nv_pair_list_find(pkg_src_list, name)) {
+         ^
+In file included from conffile_list.h:22:0,
+                 from pkg.h:30,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from ipkg_conf.c:20:
+nv_pair_list.h:57:7: замечание: expected «struct nv_pair_list_t *» but argument is of type «struct pkg_src_list_t *»
+ char *nv_pair_list_find(nv_pair_list_t *list, char *name);
+       ^
+ipkg_conf.c:558:9: предупреждение: в передаче аргумента 1 «nv_pair_list_find»: несовместимый тип указателя [по умолчанию включена]
+         if (!nv_pair_list_find(pkg_src_list, name)) {
+         ^
+In file included from conffile_list.h:22:0,
+                 from pkg.h:30,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from ipkg_conf.c:20:
+nv_pair_list.h:57:7: замечание: expected «struct nv_pair_list_t *» but argument is of type «struct pkg_src_list_t *»
+ char *nv_pair_list_find(nv_pair_list_t *list, char *name);
+       ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-ipkg_utils.o -MD -MP -MF ".deps/ipkg_hash_test-ipkg_utils.Tpo" -c -o ipkg_hash_test-ipkg_utils.o `test -f 'ipkg_utils.c' || echo './'`ipkg_utils.c; \
+then mv -f ".deps/ipkg_hash_test-ipkg_utils.Tpo" ".deps/ipkg_hash_test-ipkg_utils.Po"; else rm -f ".deps/ipkg_hash_test-ipkg_utils.Tpo"; exit 1; fi
+ipkg_utils.c: В функции «trim_alloc»:
+ipkg_utils.c:97:12: предупреждение: variable «dest» set but not used [-Wunused-but-set-variable]
+      char *dest, *src, *end;
+            ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg.o -MD -MP -MF ".deps/ipkg_hash_test-pkg.Tpo" -c -o ipkg_hash_test-pkg.o `test -f 'pkg.c' || echo './'`pkg.c; \
+then mv -f ".deps/ipkg_hash_test-pkg.Tpo" ".deps/ipkg_hash_test-pkg.Po"; else rm -f ".deps/ipkg_hash_test-pkg.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_depends.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_depends.Tpo" -c -o ipkg_hash_test-pkg_depends.o `test -f 'pkg_depends.c' || echo './'`pkg_depends.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_depends.Tpo" ".deps/ipkg_hash_test-pkg_depends.Po"; else rm -f ".deps/ipkg_hash_test-pkg_depends.Tpo"; exit 1; fi
+pkg_depends.c: В функции «is_pkg_a_replaces»:
+pkg_depends.c:270:22: предупреждение: variable «replaces» set but not used [-Wunused-but-set-variable]
+     abstract_pkg_t **replaces;
+                      ^
+pkg_depends.c: В функции «pkg_hash_fetch_conflicts»:
+pkg_depends.c:296:9: предупреждение: variable «count» set but not used [-Wunused-but-set-variable]
+     int count;
+         ^
+pkg_depends.c: В функции «buildProvides»:
+pkg_depends.c:657:21: предупреждение: variable «j» set but not used [-Wunused-but-set-variable]
+     register int i, j;
+                     ^
+pkg_depends.c: В функции «buildReplaces»:
+pkg_depends.c:719:22: предупреждение: variable «j» set but not used [-Wunused-but-set-variable]
+      register int i, j;
+                      ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_extract.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_extract.Tpo" -c -o ipkg_hash_test-pkg_extract.o `test -f 'pkg_extract.c' || echo './'`pkg_extract.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_extract.Tpo" ".deps/ipkg_hash_test-pkg_extract.Po"; else rm -f ".deps/ipkg_hash_test-pkg_extract.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-hash_table.o -MD -MP -MF ".deps/ipkg_hash_test-hash_table.Tpo" -c -o ipkg_hash_test-hash_table.o `test -f 'hash_table.c' || echo './'`hash_table.c; \
+then mv -f ".deps/ipkg_hash_test-hash_table.Tpo" ".deps/ipkg_hash_test-hash_table.Po"; else rm -f ".deps/ipkg_hash_test-hash_table.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_hash.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_hash.Tpo" -c -o ipkg_hash_test-pkg_hash.o `test -f 'pkg_hash.c' || echo './'`pkg_hash.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_hash.Tpo" ".deps/ipkg_hash_test-pkg_hash.Po"; else rm -f ".deps/ipkg_hash_test-pkg_hash.Tpo"; exit 1; fi
+pkg_hash.c: В функции «pkg_hash_fetch_best_installation_candidate»:
+pkg_hash.c:229:4: предупреждение: в передаче аргумента 2 «pkg_vec_sort»: несовместимый тип указателя [по умолчанию включена]
+    pkg_vec_sort(matching_pkgs, pkg_name_version_and_architecture_compare);
+    ^
+In file included from pkg.h:25:0,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from pkg_hash.c:18:
+pkg_vec.h:50:6: замечание: expected «int (*)(struct pkg_t *, struct pkg_t *)» but argument is of type «int (*)(void *, void *)»
+ void pkg_vec_sort(pkg_vec_t *vec, int (*compar)(pkg_t *, pkg_t *));
+      ^
+pkg_hash.c:231:4: предупреждение: в передаче аргумента 2 «abstract_pkg_vec_sort»: несовместимый тип указателя [по умолчанию включена]
+    abstract_pkg_vec_sort(matching_pkgs, abstract_pkg_name_compare);
+    ^
+In file included from pkg.h:25:0,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from pkg_hash.c:18:
+pkg_vec.h:60:6: замечание: expected «int (*)(struct abstract_pkg_t *, struct abstract_pkg_t *)» but argument is of type «int (*)(void *, void *)»
+ void abstract_pkg_vec_sort(pkg_vec_t *vec, int (*compar)(abstract_pkg_t *, abstract_pkg_t *));
+      ^
+pkg_hash.c: В функции «hash_insert_pkg»:
+pkg_hash.c:519:10: предупреждение: variable «arch_priority» set but not used [-Wunused-but-set-variable]
+      int arch_priority;
+          ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_parse.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_parse.Tpo" -c -o ipkg_hash_test-pkg_parse.o `test -f 'pkg_parse.c' || echo './'`pkg_parse.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_parse.Tpo" ".deps/ipkg_hash_test-pkg_parse.Po"; else rm -f ".deps/ipkg_hash_test-pkg_parse.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_vec.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_vec.Tpo" -c -o ipkg_hash_test-pkg_vec.o `test -f 'pkg_vec.c' || echo './'`pkg_vec.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_vec.Tpo" ".deps/ipkg_hash_test-pkg_vec.Po"; else rm -f ".deps/ipkg_hash_test-pkg_vec.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-file_util.o -MD -MP -MF ".deps/ipkg_hash_test-file_util.Tpo" -c -o ipkg_hash_test-file_util.o `test -f 'file_util.c' || echo './'`file_util.c; \
+then mv -f ".deps/ipkg_hash_test-file_util.Tpo" ".deps/ipkg_hash_test-file_util.Po"; else rm -f ".deps/ipkg_hash_test-file_util.Tpo"; exit 1; fi
+file_util.c: В функции «file_md5sum_alloc»:
+file_util.c:175:5: предупреждение: при возврате результата указуемые типы различаются знаковостью [-Wpointer-sign]
+     return md5sum_hex;
+     ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-ipkg_message.o -MD -MP -MF ".deps/ipkg_hash_test-ipkg_message.Tpo" -c -o ipkg_hash_test-ipkg_message.o `test -f 'ipkg_message.c' || echo './'`ipkg_message.c; \
+then mv -f ".deps/ipkg_hash_test-ipkg_message.Tpo" ".deps/ipkg_hash_test-ipkg_message.Po"; else rm -f ".deps/ipkg_hash_test-ipkg_message.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-md5.o -MD -MP -MF ".deps/ipkg_hash_test-md5.Tpo" -c -o ipkg_hash_test-md5.o `test -f 'md5.c' || echo './'`md5.c; \
+then mv -f ".deps/ipkg_hash_test-md5.Tpo" ".deps/ipkg_hash_test-md5.Po"; else rm -f ".deps/ipkg_hash_test-md5.Tpo"; exit 1; fi
+md5.c: В функции «md5_process_block»:
+md5.c:424:7: предупреждение: операция над «temp» может дать неопределенный результат [-Wsequence-point]
+  temp = CYCLIC (temp, ps[i&3]);
+       ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-sprintf_alloc.o -MD -MP -MF ".deps/ipkg_hash_test-sprintf_alloc.Tpo" -c -o ipkg_hash_test-sprintf_alloc.o `test -f 'sprintf_alloc.c' || echo './'`sprintf_alloc.c; \
+then mv -f ".deps/ipkg_hash_test-sprintf_alloc.Tpo" ".deps/ipkg_hash_test-sprintf_alloc.Po"; else rm -f ".deps/ipkg_hash_test-sprintf_alloc.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-str_util.o -MD -MP -MF ".deps/ipkg_hash_test-str_util.Tpo" -c -o ipkg_hash_test-str_util.o `test -f 'str_util.c' || echo './'`str_util.c; \
+then mv -f ".deps/ipkg_hash_test-str_util.Tpo" ".deps/ipkg_hash_test-str_util.Po"; else rm -f ".deps/ipkg_hash_test-str_util.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-xregex.o -MD -MP -MF ".deps/ipkg_hash_test-xregex.Tpo" -c -o ipkg_hash_test-xregex.o `test -f 'xregex.c' || echo './'`xregex.c; \
+then mv -f ".deps/ipkg_hash_test-xregex.Tpo" ".deps/ipkg_hash_test-xregex.Po"; else rm -f ".deps/ipkg_hash_test-xregex.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-xsystem.o -MD -MP -MF ".deps/ipkg_hash_test-xsystem.Tpo" -c -o ipkg_hash_test-xsystem.o `test -f 'xsystem.c' || echo './'`xsystem.c; \
+then mv -f ".deps/ipkg_hash_test-xsystem.Tpo" ".deps/ipkg_hash_test-xsystem.Po"; else rm -f ".deps/ipkg_hash_test-xsystem.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-conffile.o -MD -MP -MF ".deps/ipkg_hash_test-conffile.Tpo" -c -o ipkg_hash_test-conffile.o `test -f 'conffile.c' || echo './'`conffile.c; \
+then mv -f ".deps/ipkg_hash_test-conffile.Tpo" ".deps/ipkg_hash_test-conffile.Po"; else rm -f ".deps/ipkg_hash_test-conffile.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-conffile_list.o -MD -MP -MF ".deps/ipkg_hash_test-conffile_list.Tpo" -c -o ipkg_hash_test-conffile_list.o `test -f 'conffile_list.c' || echo './'`conffile_list.c; \
+then mv -f ".deps/ipkg_hash_test-conffile_list.Tpo" ".deps/ipkg_hash_test-conffile_list.Po"; else rm -f ".deps/ipkg_hash_test-conffile_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-nv_pair.o -MD -MP -MF ".deps/ipkg_hash_test-nv_pair.Tpo" -c -o ipkg_hash_test-nv_pair.o `test -f 'nv_pair.c' || echo './'`nv_pair.c; \
+then mv -f ".deps/ipkg_hash_test-nv_pair.Tpo" ".deps/ipkg_hash_test-nv_pair.Po"; else rm -f ".deps/ipkg_hash_test-nv_pair.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-nv_pair_list.o -MD -MP -MF ".deps/ipkg_hash_test-nv_pair_list.Tpo" -c -o ipkg_hash_test-nv_pair_list.o `test -f 'nv_pair_list.c' || echo './'`nv_pair_list.c; \
+then mv -f ".deps/ipkg_hash_test-nv_pair_list.Tpo" ".deps/ipkg_hash_test-nv_pair_list.Po"; else rm -f ".deps/ipkg_hash_test-nv_pair_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_dest.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_dest.Tpo" -c -o ipkg_hash_test-pkg_dest.o `test -f 'pkg_dest.c' || echo './'`pkg_dest.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_dest.Tpo" ".deps/ipkg_hash_test-pkg_dest.Po"; else rm -f ".deps/ipkg_hash_test-pkg_dest.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_dest_list.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_dest_list.Tpo" -c -o ipkg_hash_test-pkg_dest_list.o `test -f 'pkg_dest_list.c' || echo './'`pkg_dest_list.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_dest_list.Tpo" ".deps/ipkg_hash_test-pkg_dest_list.Po"; else rm -f ".deps/ipkg_hash_test-pkg_dest_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_src.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_src.Tpo" -c -o ipkg_hash_test-pkg_src.o `test -f 'pkg_src.c' || echo './'`pkg_src.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_src.Tpo" ".deps/ipkg_hash_test-pkg_src.Po"; else rm -f ".deps/ipkg_hash_test-pkg_src.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-pkg_src_list.o -MD -MP -MF ".deps/ipkg_hash_test-pkg_src_list.Tpo" -c -o ipkg_hash_test-pkg_src_list.o `test -f 'pkg_src_list.c' || echo './'`pkg_src_list.c; \
+then mv -f ".deps/ipkg_hash_test-pkg_src_list.Tpo" ".deps/ipkg_hash_test-pkg_src_list.Po"; else rm -f ".deps/ipkg_hash_test-pkg_src_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-str_list.o -MD -MP -MF ".deps/ipkg_hash_test-str_list.Tpo" -c -o ipkg_hash_test-str_list.o `test -f 'str_list.c' || echo './'`str_list.c; \
+then mv -f ".deps/ipkg_hash_test-str_list.Tpo" ".deps/ipkg_hash_test-str_list.Po"; else rm -f ".deps/ipkg_hash_test-str_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_hash_test-void_list.o -MD -MP -MF ".deps/ipkg_hash_test-void_list.Tpo" -c -o ipkg_hash_test-void_list.o `test -f 'void_list.c' || echo './'`void_list.c; \
+then mv -f ".deps/ipkg_hash_test-void_list.Tpo" ".deps/ipkg_hash_test-void_list.Po"; else rm -f ".deps/ipkg_hash_test-void_list.Tpo"; exit 1; fi
+/bin/sh ./libtool --tag=CC --mode=link /usr/bin/gcc  -g3 -gdwarf-2   -o ipkg_hash_test  ipkg_hash_test-ipkg_hash_test.o ipkg_hash_test-ipkg_conf.o ipkg_hash_test-ipkg_utils.o ipkg_hash_test-pkg.o ipkg_hash_test-pkg_depends.o ipkg_hash_test-pkg_extract.o ipkg_hash_test-hash_table.o ipkg_hash_test-pkg_hash.o ipkg_hash_test-pkg_parse.o ipkg_hash_test-pkg_vec.o ipkg_hash_test-file_util.o ipkg_hash_test-ipkg_message.o ipkg_hash_test-md5.o ipkg_hash_test-sprintf_alloc.o ipkg_hash_test-str_util.o ipkg_hash_test-xregex.o ipkg_hash_test-xsystem.o ipkg_hash_test-conffile.o ipkg_hash_test-conffile_list.o ipkg_hash_test-nv_pair.o ipkg_hash_test-nv_pair_list.o ipkg_hash_test-pkg_dest.o ipkg_hash_test-pkg_dest_list.o ipkg_hash_test-pkg_src.o ipkg_hash_test-pkg_src_list.o ipkg_hash_test-str_list.o ipkg_hash_test-void_list.o libbb/libbb.la 
+/usr/bin/gcc -g3 -gdwarf-2 -o ipkg_hash_test ipkg_hash_test-ipkg_hash_test.o ipkg_hash_test-ipkg_conf.o ipkg_hash_test-ipkg_utils.o ipkg_hash_test-pkg.o ipkg_hash_test-pkg_depends.o ipkg_hash_test-pkg_extract.o ipkg_hash_test-hash_table.o ipkg_hash_test-pkg_hash.o ipkg_hash_test-pkg_parse.o ipkg_hash_test-pkg_vec.o ipkg_hash_test-file_util.o ipkg_hash_test-ipkg_message.o ipkg_hash_test-md5.o ipkg_hash_test-sprintf_alloc.o ipkg_hash_test-str_util.o ipkg_hash_test-xregex.o ipkg_hash_test-xsystem.o ipkg_hash_test-conffile.o ipkg_hash_test-conffile_list.o ipkg_hash_test-nv_pair.o ipkg_hash_test-nv_pair_list.o ipkg_hash_test-pkg_dest.o ipkg_hash_test-pkg_dest_list.o ipkg_hash_test-pkg_src.o ipkg_hash_test-pkg_src_list.o ipkg_hash_test-str_list.o ipkg_hash_test-void_list.o  libbb/.libs/libbb.a
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-ipkg_extract_test.o -MD -MP -MF ".deps/ipkg_extract_test-ipkg_extract_test.Tpo" -c -o ipkg_extract_test-ipkg_extract_test.o `test -f 'ipkg_extract_test.c' || echo './'`ipkg_extract_test.c; \
+then mv -f ".deps/ipkg_extract_test-ipkg_extract_test.Tpo" ".deps/ipkg_extract_test-ipkg_extract_test.Po"; else rm -f ".deps/ipkg_extract_test-ipkg_extract_test.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-ipkg_conf.o -MD -MP -MF ".deps/ipkg_extract_test-ipkg_conf.Tpo" -c -o ipkg_extract_test-ipkg_conf.o `test -f 'ipkg_conf.c' || echo './'`ipkg_conf.c; \
+then mv -f ".deps/ipkg_extract_test-ipkg_conf.Tpo" ".deps/ipkg_extract_test-ipkg_conf.Po"; else rm -f ".deps/ipkg_extract_test-ipkg_conf.Tpo"; exit 1; fi
+ipkg_conf.c: В функции «ipkg_conf_parse_file»:
+ipkg_conf.c:551:9: предупреждение: в передаче аргумента 1 «nv_pair_list_find»: несовместимый тип указателя [по умолчанию включена]
+         if (!nv_pair_list_find(pkg_src_list, name)) {
+         ^
+In file included from conffile_list.h:22:0,
+                 from pkg.h:30,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from ipkg_conf.c:20:
+nv_pair_list.h:57:7: замечание: expected «struct nv_pair_list_t *» but argument is of type «struct pkg_src_list_t *»
+ char *nv_pair_list_find(nv_pair_list_t *list, char *name);
+       ^
+ipkg_conf.c:558:9: предупреждение: в передаче аргумента 1 «nv_pair_list_find»: несовместимый тип указателя [по умолчанию включена]
+         if (!nv_pair_list_find(pkg_src_list, name)) {
+         ^
+In file included from conffile_list.h:22:0,
+                 from pkg.h:30,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from ipkg_conf.c:20:
+nv_pair_list.h:57:7: замечание: expected «struct nv_pair_list_t *» but argument is of type «struct pkg_src_list_t *»
+ char *nv_pair_list_find(nv_pair_list_t *list, char *name);
+       ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-ipkg_utils.o -MD -MP -MF ".deps/ipkg_extract_test-ipkg_utils.Tpo" -c -o ipkg_extract_test-ipkg_utils.o `test -f 'ipkg_utils.c' || echo './'`ipkg_utils.c; \
+then mv -f ".deps/ipkg_extract_test-ipkg_utils.Tpo" ".deps/ipkg_extract_test-ipkg_utils.Po"; else rm -f ".deps/ipkg_extract_test-ipkg_utils.Tpo"; exit 1; fi
+ipkg_utils.c: В функции «trim_alloc»:
+ipkg_utils.c:97:12: предупреждение: variable «dest» set but not used [-Wunused-but-set-variable]
+      char *dest, *src, *end;
+            ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg.o -MD -MP -MF ".deps/ipkg_extract_test-pkg.Tpo" -c -o ipkg_extract_test-pkg.o `test -f 'pkg.c' || echo './'`pkg.c; \
+then mv -f ".deps/ipkg_extract_test-pkg.Tpo" ".deps/ipkg_extract_test-pkg.Po"; else rm -f ".deps/ipkg_extract_test-pkg.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_depends.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_depends.Tpo" -c -o ipkg_extract_test-pkg_depends.o `test -f 'pkg_depends.c' || echo './'`pkg_depends.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_depends.Tpo" ".deps/ipkg_extract_test-pkg_depends.Po"; else rm -f ".deps/ipkg_extract_test-pkg_depends.Tpo"; exit 1; fi
+pkg_depends.c: В функции «is_pkg_a_replaces»:
+pkg_depends.c:270:22: предупреждение: variable «replaces» set but not used [-Wunused-but-set-variable]
+     abstract_pkg_t **replaces;
+                      ^
+pkg_depends.c: В функции «pkg_hash_fetch_conflicts»:
+pkg_depends.c:296:9: предупреждение: variable «count» set but not used [-Wunused-but-set-variable]
+     int count;
+         ^
+pkg_depends.c: В функции «buildProvides»:
+pkg_depends.c:657:21: предупреждение: variable «j» set but not used [-Wunused-but-set-variable]
+     register int i, j;
+                     ^
+pkg_depends.c: В функции «buildReplaces»:
+pkg_depends.c:719:22: предупреждение: variable «j» set but not used [-Wunused-but-set-variable]
+      register int i, j;
+                      ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_extract.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_extract.Tpo" -c -o ipkg_extract_test-pkg_extract.o `test -f 'pkg_extract.c' || echo './'`pkg_extract.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_extract.Tpo" ".deps/ipkg_extract_test-pkg_extract.Po"; else rm -f ".deps/ipkg_extract_test-pkg_extract.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-hash_table.o -MD -MP -MF ".deps/ipkg_extract_test-hash_table.Tpo" -c -o ipkg_extract_test-hash_table.o `test -f 'hash_table.c' || echo './'`hash_table.c; \
+then mv -f ".deps/ipkg_extract_test-hash_table.Tpo" ".deps/ipkg_extract_test-hash_table.Po"; else rm -f ".deps/ipkg_extract_test-hash_table.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_hash.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_hash.Tpo" -c -o ipkg_extract_test-pkg_hash.o `test -f 'pkg_hash.c' || echo './'`pkg_hash.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_hash.Tpo" ".deps/ipkg_extract_test-pkg_hash.Po"; else rm -f ".deps/ipkg_extract_test-pkg_hash.Tpo"; exit 1; fi
+pkg_hash.c: В функции «pkg_hash_fetch_best_installation_candidate»:
+pkg_hash.c:229:4: предупреждение: в передаче аргумента 2 «pkg_vec_sort»: несовместимый тип указателя [по умолчанию включена]
+    pkg_vec_sort(matching_pkgs, pkg_name_version_and_architecture_compare);
+    ^
+In file included from pkg.h:25:0,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from pkg_hash.c:18:
+pkg_vec.h:50:6: замечание: expected «int (*)(struct pkg_t *, struct pkg_t *)» but argument is of type «int (*)(void *, void *)»
+ void pkg_vec_sort(pkg_vec_t *vec, int (*compar)(pkg_t *, pkg_t *));
+      ^
+pkg_hash.c:231:4: предупреждение: в передаче аргумента 2 «abstract_pkg_vec_sort»: несовместимый тип указателя [по умолчанию включена]
+    abstract_pkg_vec_sort(matching_pkgs, abstract_pkg_name_compare);
+    ^
+In file included from pkg.h:25:0,
+                 from ipkg_conf.h:26,
+                 from ipkg.h:30,
+                 from pkg_hash.c:18:
+pkg_vec.h:60:6: замечание: expected «int (*)(struct abstract_pkg_t *, struct abstract_pkg_t *)» but argument is of type «int (*)(void *, void *)»
+ void abstract_pkg_vec_sort(pkg_vec_t *vec, int (*compar)(abstract_pkg_t *, abstract_pkg_t *));
+      ^
+pkg_hash.c: В функции «hash_insert_pkg»:
+pkg_hash.c:519:10: предупреждение: variable «arch_priority» set but not used [-Wunused-but-set-variable]
+      int arch_priority;
+          ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_parse.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_parse.Tpo" -c -o ipkg_extract_test-pkg_parse.o `test -f 'pkg_parse.c' || echo './'`pkg_parse.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_parse.Tpo" ".deps/ipkg_extract_test-pkg_parse.Po"; else rm -f ".deps/ipkg_extract_test-pkg_parse.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_vec.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_vec.Tpo" -c -o ipkg_extract_test-pkg_vec.o `test -f 'pkg_vec.c' || echo './'`pkg_vec.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_vec.Tpo" ".deps/ipkg_extract_test-pkg_vec.Po"; else rm -f ".deps/ipkg_extract_test-pkg_vec.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-file_util.o -MD -MP -MF ".deps/ipkg_extract_test-file_util.Tpo" -c -o ipkg_extract_test-file_util.o `test -f 'file_util.c' || echo './'`file_util.c; \
+then mv -f ".deps/ipkg_extract_test-file_util.Tpo" ".deps/ipkg_extract_test-file_util.Po"; else rm -f ".deps/ipkg_extract_test-file_util.Tpo"; exit 1; fi
+file_util.c: В функции «file_md5sum_alloc»:
+file_util.c:175:5: предупреждение: при возврате результата указуемые типы различаются знаковостью [-Wpointer-sign]
+     return md5sum_hex;
+     ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-ipkg_message.o -MD -MP -MF ".deps/ipkg_extract_test-ipkg_message.Tpo" -c -o ipkg_extract_test-ipkg_message.o `test -f 'ipkg_message.c' || echo './'`ipkg_message.c; \
+then mv -f ".deps/ipkg_extract_test-ipkg_message.Tpo" ".deps/ipkg_extract_test-ipkg_message.Po"; else rm -f ".deps/ipkg_extract_test-ipkg_message.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-md5.o -MD -MP -MF ".deps/ipkg_extract_test-md5.Tpo" -c -o ipkg_extract_test-md5.o `test -f 'md5.c' || echo './'`md5.c; \
+then mv -f ".deps/ipkg_extract_test-md5.Tpo" ".deps/ipkg_extract_test-md5.Po"; else rm -f ".deps/ipkg_extract_test-md5.Tpo"; exit 1; fi
+md5.c: В функции «md5_process_block»:
+md5.c:424:7: предупреждение: операция над «temp» может дать неопределенный результат [-Wsequence-point]
+  temp = CYCLIC (temp, ps[i&3]);
+       ^
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-sprintf_alloc.o -MD -MP -MF ".deps/ipkg_extract_test-sprintf_alloc.Tpo" -c -o ipkg_extract_test-sprintf_alloc.o `test -f 'sprintf_alloc.c' || echo './'`sprintf_alloc.c; \
+then mv -f ".deps/ipkg_extract_test-sprintf_alloc.Tpo" ".deps/ipkg_extract_test-sprintf_alloc.Po"; else rm -f ".deps/ipkg_extract_test-sprintf_alloc.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-str_util.o -MD -MP -MF ".deps/ipkg_extract_test-str_util.Tpo" -c -o ipkg_extract_test-str_util.o `test -f 'str_util.c' || echo './'`str_util.c; \
+then mv -f ".deps/ipkg_extract_test-str_util.Tpo" ".deps/ipkg_extract_test-str_util.Po"; else rm -f ".deps/ipkg_extract_test-str_util.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-xregex.o -MD -MP -MF ".deps/ipkg_extract_test-xregex.Tpo" -c -o ipkg_extract_test-xregex.o `test -f 'xregex.c' || echo './'`xregex.c; \
+then mv -f ".deps/ipkg_extract_test-xregex.Tpo" ".deps/ipkg_extract_test-xregex.Po"; else rm -f ".deps/ipkg_extract_test-xregex.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-xsystem.o -MD -MP -MF ".deps/ipkg_extract_test-xsystem.Tpo" -c -o ipkg_extract_test-xsystem.o `test -f 'xsystem.c' || echo './'`xsystem.c; \
+then mv -f ".deps/ipkg_extract_test-xsystem.Tpo" ".deps/ipkg_extract_test-xsystem.Po"; else rm -f ".deps/ipkg_extract_test-xsystem.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-conffile.o -MD -MP -MF ".deps/ipkg_extract_test-conffile.Tpo" -c -o ipkg_extract_test-conffile.o `test -f 'conffile.c' || echo './'`conffile.c; \
+then mv -f ".deps/ipkg_extract_test-conffile.Tpo" ".deps/ipkg_extract_test-conffile.Po"; else rm -f ".deps/ipkg_extract_test-conffile.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-conffile_list.o -MD -MP -MF ".deps/ipkg_extract_test-conffile_list.Tpo" -c -o ipkg_extract_test-conffile_list.o `test -f 'conffile_list.c' || echo './'`conffile_list.c; \
+then mv -f ".deps/ipkg_extract_test-conffile_list.Tpo" ".deps/ipkg_extract_test-conffile_list.Po"; else rm -f ".deps/ipkg_extract_test-conffile_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-nv_pair.o -MD -MP -MF ".deps/ipkg_extract_test-nv_pair.Tpo" -c -o ipkg_extract_test-nv_pair.o `test -f 'nv_pair.c' || echo './'`nv_pair.c; \
+then mv -f ".deps/ipkg_extract_test-nv_pair.Tpo" ".deps/ipkg_extract_test-nv_pair.Po"; else rm -f ".deps/ipkg_extract_test-nv_pair.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-nv_pair_list.o -MD -MP -MF ".deps/ipkg_extract_test-nv_pair_list.Tpo" -c -o ipkg_extract_test-nv_pair_list.o `test -f 'nv_pair_list.c' || echo './'`nv_pair_list.c; \
+then mv -f ".deps/ipkg_extract_test-nv_pair_list.Tpo" ".deps/ipkg_extract_test-nv_pair_list.Po"; else rm -f ".deps/ipkg_extract_test-nv_pair_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_dest.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_dest.Tpo" -c -o ipkg_extract_test-pkg_dest.o `test -f 'pkg_dest.c' || echo './'`pkg_dest.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_dest.Tpo" ".deps/ipkg_extract_test-pkg_dest.Po"; else rm -f ".deps/ipkg_extract_test-pkg_dest.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_dest_list.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_dest_list.Tpo" -c -o ipkg_extract_test-pkg_dest_list.o `test -f 'pkg_dest_list.c' || echo './'`pkg_dest_list.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_dest_list.Tpo" ".deps/ipkg_extract_test-pkg_dest_list.Po"; else rm -f ".deps/ipkg_extract_test-pkg_dest_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_src.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_src.Tpo" -c -o ipkg_extract_test-pkg_src.o `test -f 'pkg_src.c' || echo './'`pkg_src.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_src.Tpo" ".deps/ipkg_extract_test-pkg_src.Po"; else rm -f ".deps/ipkg_extract_test-pkg_src.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-pkg_src_list.o -MD -MP -MF ".deps/ipkg_extract_test-pkg_src_list.Tpo" -c -o ipkg_extract_test-pkg_src_list.o `test -f 'pkg_src_list.c' || echo './'`pkg_src_list.c; \
+then mv -f ".deps/ipkg_extract_test-pkg_src_list.Tpo" ".deps/ipkg_extract_test-pkg_src_list.Po"; else rm -f ".deps/ipkg_extract_test-pkg_src_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-str_list.o -MD -MP -MF ".deps/ipkg_extract_test-str_list.Tpo" -c -o ipkg_extract_test-str_list.o `test -f 'str_list.c' || echo './'`str_list.c; \
+then mv -f ".deps/ipkg_extract_test-str_list.Tpo" ".deps/ipkg_extract_test-str_list.Po"; else rm -f ".deps/ipkg_extract_test-str_list.Tpo"; exit 1; fi
+if /usr/bin/gcc -DHAVE_CONFIG_H -I. -I. -I.    -g -O -Wall -DHOST_CPU_STR=\"i686\" -DBUILD_CPU=i686 -DLIBDIR=\"/usr/local/lib\" -DIPKGLIBDIR=\"/usr/lib\" -DDATADIR=\"/usr/local/share\" -g3 -gdwarf-2 -MT ipkg_extract_test-void_list.o -MD -MP -MF ".deps/ipkg_extract_test-void_list.Tpo" -c -o ipkg_extract_test-void_list.o `test -f 'void_list.c' || echo './'`void_list.c; \
+then mv -f ".deps/ipkg_extract_test-void_list.Tpo" ".deps/ipkg_extract_test-void_list.Po"; else rm -f ".deps/ipkg_extract_test-void_list.Tpo"; exit 1; fi
+/bin/sh ./libtool --tag=CC --mode=link /usr/bin/gcc  -g3 -gdwarf-2   -o ipkg_extract_test  ipkg_extract_test-ipkg_extract_test.o ipkg_extract_test-ipkg_conf.o ipkg_extract_test-ipkg_utils.o ipkg_extract_test-pkg.o ipkg_extract_test-pkg_depends.o ipkg_extract_test-pkg_extract.o ipkg_extract_test-hash_table.o ipkg_extract_test-pkg_hash.o ipkg_extract_test-pkg_parse.o ipkg_extract_test-pkg_vec.o ipkg_extract_test-file_util.o ipkg_extract_test-ipkg_message.o ipkg_extract_test-md5.o ipkg_extract_test-sprintf_alloc.o ipkg_extract_test-str_util.o ipkg_extract_test-xregex.o ipkg_extract_test-xsystem.o ipkg_extract_test-conffile.o ipkg_extract_test-conffile_list.o ipkg_extract_test-nv_pair.o ipkg_extract_test-nv_pair_list.o ipkg_extract_test-pkg_dest.o ipkg_extract_test-pkg_dest_list.o ipkg_extract_test-pkg_src.o ipkg_extract_test-pkg_src_list.o ipkg_extract_test-str_list.o ipkg_extract_test-void_list.o libbb/libbb.la 
+/usr/bin/gcc -g3 -gdwarf-2 -o ipkg_extract_test ipkg_extract_test-ipkg_extract_test.o ipkg_extract_test-ipkg_conf.o ipkg_extract_test-ipkg_utils.o ipkg_extract_test-pkg.o ipkg_extract_test-pkg_depends.o ipkg_extract_test-pkg_extract.o ipkg_extract_test-hash_table.o ipkg_extract_test-pkg_hash.o ipkg_extract_test-pkg_parse.o ipkg_extract_test-pkg_vec.o ipkg_extract_test-file_util.o ipkg_extract_test-ipkg_message.o ipkg_extract_test-md5.o ipkg_extract_test-sprintf_alloc.o ipkg_extract_test-str_util.o ipkg_extract_test-xregex.o ipkg_extract_test-xsystem.o ipkg_extract_test-conffile.o ipkg_extract_test-conffile_list.o ipkg_extract_test-nv_pair.o ipkg_extract_test-nv_pair_list.o ipkg_extract_test-pkg_dest.o ipkg_extract_test-pkg_dest_list.o ipkg_extract_test-pkg_src.o ipkg_extract_test-pkg_src_list.o ipkg_extract_test-str_list.o ipkg_extract_test-void_list.o  libbb/.libs/libbb.a
+make[2]: Выход из каталога `/home/dg/OS/RESOURCE/USP'
+make[1]: Выход из каталога `/home/dg/OS/RESOURCE/USP'
